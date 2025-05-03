@@ -1,6 +1,7 @@
 using MyProject
 using Test
 
-@testset "MyProject.jl" begin
+@testset "testing functions" begin
     # Write your tests here.
+    @test MyProject.operateOnXY()==2
 end
